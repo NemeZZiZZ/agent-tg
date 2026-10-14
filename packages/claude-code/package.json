@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-tg",
+  "version": "0.1.0",
+  "description": "Send Telegram messages and files from Claude Code via the agent-tg skill",
+  "license": "MIT",
+  "author": "NemeZZiZZ",
+  "repository": { "type": "git", "url": "git+https://github.com/NemeZZiZZ/agent-tg.git", "directory": "packages/claude-code" },
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "files": [".claude-plugin", "skills", "README.md"],
+  "keywords": ["claude-code", "claude-code-plugin", "telegram", "agent"],
+  "dependencies": { "agent-tg": "*" }
+}

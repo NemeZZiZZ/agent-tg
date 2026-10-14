@@ -1,0 +1,13 @@
+{
+  "name": "agent-tg-repo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Send Telegram messages and files from AI coding agents — multi-bot, multi-channel, zero dependencies",
+  "license": "MIT",
+  "author": "NemeZZiZZ",
+  "repository": { "type": "git", "url": "git+https://github.com/NemeZZiZZ/agent-tg.git" },
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "workspaces": ["packages/*"],
+  "scripts": { "test": "node --test" }
+}

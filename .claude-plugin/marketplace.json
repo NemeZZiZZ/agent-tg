@@ -1,0 +1,11 @@
+{
+  "name": "agent-tg",
+  "owner": { "name": "NemeZZiZZ" },
+  "plugins": [
+    {
+      "name": "claude-code-tg",
+      "source": "./packages/claude-code",
+      "description": "Send Telegram messages and files from Claude Code via the agent-tg skill"
+    }
+  ]
+}

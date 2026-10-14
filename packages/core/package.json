@@ -1,0 +1,15 @@
+{
+  "name": "agent-tg",
+  "version": "0.1.0",
+  "description": "Send Telegram messages and files from AI coding agents — multi-bot, multi-channel, zero dependencies",
+  "license": "MIT",
+  "author": "NemeZZiZZ",
+  "repository": { "type": "git", "url": "git+https://github.com/NemeZZiZZ/agent-tg.git", "directory": "packages/core" },
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.mjs" } },
+  "bin": { "agent-tg": "bin/agent-tg.mjs" },
+  "files": ["src", "bin", "skill", "README.md"],
+  "keywords": ["telegram", "bot", "cli", "agent", "opencode", "claude-code", "notifications"],
+  "dependencies": {}
+}

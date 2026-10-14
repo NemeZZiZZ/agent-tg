@@ -1,0 +1,14 @@
+{
+  "name": "opencode-tg",
+  "version": "0.1.0",
+  "description": "OpenCode plugin: telegram_send tool backed by agent-tg",
+  "license": "MIT",
+  "author": "NemeZZiZZ",
+  "repository": { "type": "git", "url": "git+https://github.com/NemeZZiZZ/agent-tg.git", "directory": "packages/opencode" },
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "src", "README.md"],
+  "keywords": ["opencode", "opencode-plugin", "telegram", "agent"],
+  "dependencies": { "agent-tg": "*" }
+}

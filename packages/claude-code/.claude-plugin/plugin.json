@@ -1,0 +1,5 @@
+{
+  "name": "claude-code-tg",
+  "version": "0.1.0",
+  "description": "Send Telegram messages and files from Claude Code via the agent-tg skill"
+}
